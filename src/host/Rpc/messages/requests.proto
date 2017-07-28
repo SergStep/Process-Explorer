@@ -1,0 +1,25 @@
+syntax = "proto3";
+package GeneratedRpc;
+
+message RequestInfo {
+    uint32 info = 1;
+}
+
+message ProcessData {
+    string processName = 1;
+    string processId = 2;
+    string userName = 3;
+    string mem = 4;
+    string userId = 5;
+    string cpu = 6;
+    string commandLine = 7;
+}
+
+message ProcessesData {
+    repeated ProcessData processes = 2;
+}
+
+service Api {
+    rpc GetProcesses(RequestInfo) returns (ProcessesData) {}
+}
+

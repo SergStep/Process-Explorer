@@ -1,0 +1,404 @@
+2017-07-26 17:56:11 ==========================
+test-daemon started
+2017-07-26 17:56:11 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 17:56:11 ==========================
+builder.RegisterService(this);
+2017-07-26 17:56:11 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 17:56:15 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 17:56:36 ==========================
+test-daemon started
+2017-07-26 17:56:36 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 17:56:36 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 17:56:36 ==========================
+builder.RegisterService(this);
+2017-07-26 17:56:43 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:05:29 ==========================
+test-daemon started
+2017-07-26 19:05:29 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:05:29 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:05:29 ==========================
+builder.RegisterService(this);
+2017-07-26 19:05:47 ==========================
+test-daemon started
+2017-07-26 19:05:47 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:05:47 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:05:47 ==========================
+builder.RegisterService(this);
+2017-07-26 19:06:41 ==========================
+test-daemon started
+2017-07-26 19:06:41 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:06:41 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:06:41 ==========================
+builder.RegisterService(this);
+2017-07-26 19:07:46 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:08:24 ==========================
+test-daemon started
+2017-07-26 19:08:24 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:08:24 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:08:24 ==========================
+builder.RegisterService(this);
+2017-07-26 19:08:27 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:08:48 ==========================
+test-daemon started
+2017-07-26 19:08:48 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:08:48 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:08:48 ==========================
+builder.RegisterService(this);
+2017-07-26 19:08:56 ==========================
+test-daemon started
+2017-07-26 19:08:56 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:08:56 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:08:56 ==========================
+builder.RegisterService(this);
+2017-07-26 19:10:00 ==========================
+test-daemon started
+2017-07-26 19:10:00 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:10:00 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:10:00 ==========================
+builder.RegisterService(this);
+2017-07-26 19:10:09 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:10:53 ==========================
+test-daemon started
+2017-07-26 19:10:53 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:10:53 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:10:53 ==========================
+builder.RegisterService(this);
+2017-07-26 19:11:04 ==========================
+test-daemon started
+2017-07-26 19:11:04 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:11:04 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:11:04 ==========================
+builder.RegisterService(this);
+2017-07-26 19:11:12 ==========================
+test-daemon started
+2017-07-26 19:11:12 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:11:12 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:11:12 ==========================
+builder.RegisterService(this);
+2017-07-26 19:11:15 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:13:29 ==========================
+test-daemon started
+2017-07-26 19:13:29 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:13:29 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:13:29 ==========================
+builder.RegisterService(this);
+2017-07-26 19:16:00 ==========================
+test-daemon started
+2017-07-26 19:16:00 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:16:00 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:16:00 ==========================
+builder.RegisterService(this);
+2017-07-26 19:16:10 ==========================
+test-daemon started
+2017-07-26 19:16:10 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:16:10 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:16:10 ==========================
+builder.RegisterService(this);
+2017-07-26 19:17:23 ==========================
+test-daemon started
+2017-07-26 19:17:23 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:17:23 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:17:23 ==========================
+builder.RegisterService(this);
+2017-07-26 19:17:26 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:17:32 ==========================
+test-daemon started
+2017-07-26 19:17:32 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:17:32 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:17:32 ==========================
+builder.RegisterService(this);
+2017-07-26 19:17:34 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:20:12 ==========================
+test-daemon started
+2017-07-26 19:20:12 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:20:12 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:20:12 ==========================
+builder.RegisterService(this);
+2017-07-26 19:20:50 ==========================
+test-daemon started
+2017-07-26 19:20:50 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:20:50 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:20:50 ==========================
+builder.RegisterService(this);
+2017-07-26 19:20:57 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:23:31 ==========================
+test-daemon started
+2017-07-26 19:23:31 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:23:31 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:23:31 ==========================
+builder.RegisterService(this);
+2017-07-26 19:23:31 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:32:39 ==========================
+test-daemon started
+2017-07-26 19:32:39 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:32:39 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:32:39 ==========================
+builder.RegisterService(this);
+2017-07-26 19:32:39 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:33:32 ==========================
+test-daemon started
+2017-07-26 19:33:32 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:33:32 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:33:32 ==========================
+builder.RegisterService(this);
+2017-07-26 19:35:21 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:35:25 ==========================
+test-daemon started
+2017-07-26 19:35:25 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:35:25 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:35:25 ==========================
+builder.RegisterService(this);
+2017-07-26 19:35:25 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:36:04 ==========================
+test-daemon started
+2017-07-26 19:36:04 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:36:04 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:36:04 ==========================
+builder.RegisterService(this);
+2017-07-26 19:36:43 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:38:50 ==========================
+test-daemon started
+2017-07-26 19:38:50 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:38:50 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:38:50 ==========================
+builder.RegisterService(this);
+2017-07-26 19:38:56 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:39:15 ==========================
+test-daemon started
+2017-07-26 19:39:15 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:39:15 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:39:15 ==========================
+builder.RegisterService(this);
+2017-07-26 19:39:17 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:40:25 ==========================
+test-daemon started
+2017-07-26 19:40:25 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:40:25 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:40:25 ==========================
+builder.RegisterService(this);
+2017-07-26 19:40:40 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:41:12 ==========================
+test-daemon started
+2017-07-26 19:41:12 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:41:12 ==========================
+builder.RegisterService(this);
+2017-07-26 19:41:12 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:41:15 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:41:59 ==========================
+test-daemon started
+2017-07-26 19:41:59 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:41:59 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:41:59 ==========================
+builder.RegisterService(this);
+2017-07-26 19:42:08 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:54:41 ==========================
+test-daemon started
+2017-07-26 19:54:41 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:54:41 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:54:41 ==========================
+builder.RegisterService(this);
+2017-07-26 19:54:43 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 19:55:17 ==========================
+test-daemon started
+2017-07-26 19:55:17 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:55:17 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:55:17 ==========================
+builder.RegisterService(this);
+2017-07-26 19:57:14 ==========================
+test-daemon started
+2017-07-26 19:57:14 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:57:14 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:57:14 ==========================
+builder.RegisterService(this);
+2017-07-26 19:57:30 ==========================
+test-daemon started
+2017-07-26 19:57:30 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:57:30 ==========================
+builder.RegisterService(this);
+2017-07-26 19:57:30 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:57:46 ==========================
+test-daemon started
+2017-07-26 19:57:46 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:57:46 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:57:46 ==========================
+builder.RegisterService(this);
+2017-07-26 19:58:17 ==========================
+test-daemon started
+2017-07-26 19:58:17 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 19:58:17 ==========================
+builder.RegisterService(this);
+2017-07-26 19:58:17 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 19:58:29 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 20:04:48 ==========================
+test-daemon started
+2017-07-26 20:04:48 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 20:04:48 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 20:04:48 ==========================
+builder.RegisterService(this);
+2017-07-26 20:05:18 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 20:21:01 ==========================
+test-daemon started
+2017-07-26 20:21:01 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 20:21:01 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 20:21:01 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 20:23:33 ==========================
+test-daemon started
+2017-07-26 20:23:33 ==========================
+m_thread = std::thread(&ServerService::RunServer, this);
+2017-07-26 20:23:33 ==========================
+builder.AddListeningPort(serverAddress, grpc::InsecureServerCredentials());
+2017-07-26 20:23:33 ==========================
+builder.RegisterService(this);
+2017-07-26 20:23:33 ==========================
+std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+2017-07-26 20:26:08 ==========================
+test-daemon started
+2017-07-26 20:34:24 ==========================
+test-daemon started
+2017-07-26 20:35:53 ==========================
+test-daemon started
+2017-07-26 20:49:27 ==========================
+test-daemon started
+2017-07-27 15:34:21 ==========================
+test-daemon started
+2017-07-27 15:35:34 ==========================
+test-daemon started
+2017-07-27 15:54:48 ==========================
+test-daemon started
+2017-07-27 17:02:19 ==========================
+test-daemon started
+2017-07-27 17:03:53 ==========================
+test-daemon started
+2017-07-27 17:04:37 ==========================
+test-daemon started
+2017-07-27 17:06:55 ==========================
+test-daemon started
+2017-07-27 17:18:50 ==========================
+test-daemon started
+2017-07-27 17:22:43 ==========================
+test-daemon started
+2017-07-27 17:27:22 ==========================
+test-daemon started
+2017-07-27 17:30:39 ==========================
+test-daemon started
+2017-07-27 17:50:08 ==========================
+test-daemon started
+2017-07-27 17:53:32 ==========================
+test-daemon started
+2017-07-27 17:54:01 ==========================
+test-daemon started
+2017-07-27 17:55:01 ==========================
+test-daemon started
+2017-07-27 17:55:44 ==========================
+test-daemon started
+2017-07-27 17:56:55 ==========================
+test-daemon started
+2017-07-27 17:58:08 ==========================
+test-daemon started
+2017-07-27 17:59:27 ==========================
+test-daemon started
+2017-07-27 18:47:50 ==========================
+test-daemon started
+2017-07-27 20:38:32 ==========================
+test-daemon started
+2017-07-27 20:47:50 ==========================
+test-daemon started
+2017-07-28 13:59:05 ==========================
+test-daemon started

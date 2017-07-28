@@ -1,0 +1,12 @@
+/home/serg/ProcessExplorer/obj/CMakeFiles/edit_cache.dir
+/home/serg/ProcessExplorer/obj/CMakeFiles/rebuild_cache.dir
+/home/serg/ProcessExplorer/obj/host/CMakeFiles/edit_cache.dir
+/home/serg/ProcessExplorer/obj/host/CMakeFiles/rebuild_cache.dir
+/home/serg/ProcessExplorer/obj/host/Rpc/CMakeFiles/edit_cache.dir
+/home/serg/ProcessExplorer/obj/host/Rpc/CMakeFiles/rebuild_cache.dir
+/home/serg/ProcessExplorer/obj/host/Rpc/messages/CMakeFiles/edit_cache.dir
+/home/serg/ProcessExplorer/obj/host/Rpc/messages/CMakeFiles/rebuild_cache.dir
+/home/serg/ProcessExplorer/obj/host/Rpc/messages/CMakeFiles/GeneratedRpc.dir
+/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/CMakeFiles/rebuild_cache.dir
+/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/CMakeFiles/edit_cache.dir
+/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/CMakeFiles/process.explorer.daemon.dir

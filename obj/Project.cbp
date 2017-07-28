@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Project" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\host\;CMake Files\host\Rpc\;CMake Files\host\Rpc\messages\;CMake Files\host\process.explorer.daemon\;CMake Files\cmake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/serg/ProcessExplorer/obj" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/serg/ProcessExplorer/obj" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/serg/ProcessExplorer/obj" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GeneratedRpc">
+         <Option output="/home/serg/ProcessExplorer/lib/Debug/libGeneratedRpc.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/serg/ProcessExplorer/obj/host/Rpc/messages" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/grpc/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/Rpc/messages/Makefile&quot;  VERBOSE=1 GeneratedRpc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/Rpc/messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/Rpc/messages/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/Rpc/messages/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GeneratedRpc/fast">
+         <Option output="/home/serg/ProcessExplorer/lib/Debug/libGeneratedRpc.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/serg/ProcessExplorer/obj/host/Rpc/messages" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/grpc/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/Rpc/messages/Makefile&quot;  VERBOSE=1 GeneratedRpc/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/Rpc/messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/Rpc/messages/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/Rpc/messages/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="process.explorer.daemon">
+         <Option output="/home/serg/ProcessExplorer/bin/Debug/process.explorer.daemon" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/serg/ProcessExplorer/src/../bin/Debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/serg/ProcessExplorer/src/../gen/Debug" />
+            <Add directory="/home/serg/ProcessExplorer/src/../gen/Debug/messages" />
+            <Add directory="/home/serg/ProcessExplorer/src/host/Rpc/messages" />
+            <Add directory="/opt/grpc/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/Makefile&quot;  VERBOSE=1 process.explorer.daemon" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="process.explorer.daemon/fast">
+         <Option output="/home/serg/ProcessExplorer/bin/Debug/process.explorer.daemon" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/serg/ProcessExplorer/src/../bin/Debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/serg/ProcessExplorer/src/../gen/Debug" />
+            <Add directory="/home/serg/ProcessExplorer/src/../gen/Debug/messages" />
+            <Add directory="/home/serg/ProcessExplorer/src/host/Rpc/messages" />
+            <Add directory="/opt/grpc/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/Makefile&quot;  VERBOSE=1 process.explorer.daemon/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/serg/ProcessExplorer/obj/host/process.explorer.daemon/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/serg/ProcessExplorer/src/host/process.explorer.daemon/server.cpp">
+         <Option target="process.explorer.daemon"/>
+      </Unit>
+      <Unit filename="/home/serg/ProcessExplorer/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/serg/ProcessExplorer/src/host/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\host\" />
+      </Unit>
+      <Unit filename="/home/serg/ProcessExplorer/src/host/Rpc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\host\Rpc\" />
+      </Unit>
+      <Unit filename="/home/serg/ProcessExplorer/src/host/Rpc/messages/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\host\Rpc\messages\" />
+      </Unit>
+      <Unit filename="/home/serg/ProcessExplorer/src/host/Rpc/messages/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\host\Rpc\messages\" />
+      </Unit>
+      <Unit filename="/home/serg/ProcessExplorer/src/host/process.explorer.daemon/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\host\process.explorer.daemon\" />
+      </Unit>
+      <Unit filename="/home/serg/ProcessExplorer/src/host/process.explorer.daemon/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\host\process.explorer.daemon\" />
+      </Unit>
+      <Unit filename="/home/serg/ProcessExplorer/src/cmake/config.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/serg/ProcessExplorer/src/cmake/3rd_party.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/serg/ProcessExplorer/src/cmake/grpc.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

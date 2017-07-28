@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/serg/ProcessExplorer/lib/Debug/libGeneratedRpc.a  CMakeFiles/GeneratedRpc.dir/home/serg/ProcessExplorer/gen/Debug/messages/requests.pb.cc.o CMakeFiles/GeneratedRpc.dir/home/serg/ProcessExplorer/gen/Debug/messages/requests.grpc.pb.cc.o
+/usr/bin/ranlib /home/serg/ProcessExplorer/lib/Debug/libGeneratedRpc.a
